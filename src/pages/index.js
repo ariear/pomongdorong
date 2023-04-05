@@ -74,6 +74,10 @@ export default function Home() {
     <div>
       <Head>
         <title>{isStart ? toTimeString(timer) + ' |' : ''} POMONG DORONG</title>
+        <meta
+          name='viewport'
+          content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover'
+        />
       </Head>
       <div className="min-h-screen bg-[url('/img/bg.jpg')] bg-cover bg-center relative">
       <div className="absolute top-0 left-0 w-full h-full bg-[#0000003f] backdrop-blur"></div>
